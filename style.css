@@ -6,9 +6,21 @@
 :root {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin: 30px;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 20vw;
     }
 
+.header-nav1 li{   
+    list-style-type: none;
+}
+
+nav ul {
+    display: inline-block;
+    justify-content: right;
+    list-style-type: none;
+    text-decoration: none;
+}
 
 h1,h2 {
     font-family: 'Trebuchet MS';
@@ -17,11 +29,78 @@ h1,h2 {
 
 h2 {
     font-size: 1.4rem;
+    margin: 5px 0;
 }
 
 h3 {
     font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.verdinho-lateral {
+    background-color: #9bcd9b;
+}
+
+.ul-ohne-punkt {
+    list-style-type: none;
+}
+.ul-mit-punkt li {
+    list-style-type: disc;
 }
 p{
     line-height: 1.5rem;
+    margin: 10px 0;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+#img-haupt { 
+    width: 300px;
+    height: auto;
+}
+
+img {
+    width: 220px;
+    height: auto;
+}
+.logo-klein {
+    width: 90px;
+    height: auto;
+}
+
+.test {
+    border: #9bcd9b 2px solid;
+    padding: 3px;
+}
+
+
+.custom-list ol {
+    list-style-type: none;
+}
+.sub-list li {
+    margin-left: 20px;
+    list-style-type: decimal;
+}
+
+
+footer li {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+footer li a {
+    margin: 0 5px;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+a:hover {
+    color: #0645ad;
+    text-decoration: underline;
 }
